@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Browser</title>
+	<link rel="stylesheet" href="../style.css" type="text/css">
+    <script type="text/javascript" src="/?mode=jquery"></script>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<style class='trash-me'>
+	.onlyscript, button[onclick] { display:none; }
+	</style>
+    <script>
+    // this object will store some %symbols% in the javascript space, so that libs can read them
+    HFS = { folder:'/', number:4, paged:1 };
+    </script>
+	<script type="text/javascript" src="/?mode=section&id=lib.js"></script>
+
+	<script>
+	function about() {
+		alert("Made by FezDenver ©2016")
+	}
+	</script>
+
+	<link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+<!-- -->
+<div id='panel'>
+
+	<fieldset id='Logo'>
+
+	 <div style='float:right; position:relative; top:-1em; font-weight:bold;'>
+
+	</div>
+
+	<div id='breadcrumbs'>
+
+	<img src="../img/favicon.ico" width="32" height="32"> <font size="5">Spiderware</font>
+
+
+
+	 </div>
+
+	</fieldset>
+
+			<fieldset id='folder'>
+		<legend><img src="../img/folder.gif"> Folder</legend>
+
+       <div style='float:right; position:relative; top:-1em; font-weight:bold;'>
+
+		</div>
+
+		<div id='breadcrumbs'>
+
+		<a href="../index.html"  /> <img src="../img/img1.gif"> Home</a>
+		<a href="../Browser/index.html">>Browsers</a>
+       </div>
+
+		<div id='folder-stats'>0 folders, 1 files
+		</div>
+
+
+	</fieldset>
+
+	<fieldset id='about'>
+
+	 <div style='float:right; position:relative; top:-1em; font-weight:bold;'>
+
+	</div>
+
+	<div id='breadcrumbs'>
+
+	<a href="javascript:about()"  /><img src="../img/about.png"> About</a>
+	 </div>
+	</div>
+
+
+	</fieldset>
+
+
+</div>
+
+<div id='files_outer'>
+	<div style='height:1.6em;'></div>
+
+        <form method='post'>
+            <table id='files'>
+
+            <th><a>Name</a>
+            <th><a>Type</a>
+            <th><a>Date</a>
+						<th><a>Version</a>
+            	<tr class=''><td>
+
+
+		<a href="files/Spiderware_Browser_1_0.exe"><img src="../img/file.gif"> Spiderware Browser</a>
+
+
+<td class='nosize'>exe<td>31/12/2016<td>1.0
+            </table>
+        </form>
+
+</div>
+
+</body>
+</html>
